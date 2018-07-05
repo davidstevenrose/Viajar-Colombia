@@ -1,0 +1,360 @@
+<!--á, é, í, ó, ú-->
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+<title>Colombia Por Los Sentidos</title>
+<style>
+
+body{
+	margin: 0 10%;
+	padding: 10px 0;
+}
+
+p{
+	width: 300px;
+	line-height:20px;
+}
+
+span{
+	position: relative;
+	top: 3px;
+}
+
+h2{
+	background: #577070;
+	float:left;
+	width: 100%;
+}
+
+h2 span{
+	position:relative;
+	left: 45px;
+}
+
+h5{
+	margin: 0 auto;
+	padding: 0 0;
+	color: #800080;
+	position:relative;
+	bottom:3px;
+	left:20px;
+}
+
+
+nav ul{	
+	list-style-type: none;
+}
+
+.spacer{
+	height:10px;
+}
+
+#myAnime{
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	left: 450px;
+	top: 200px;
+	border: 1px solid black;
+	background-color: #14f3ff
+}
+
+#myAnime img.apl{
+	position:relative;
+	left: 10px;
+	top:60px;
+	animation-name: apl;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#myAnime img.clo{
+	opacity: .7;
+	position:relative;
+	left: 10px;
+	top:50px;
+	animation-name: clo;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#myAnime img.clo2{
+	visibility: hidden;
+	position:relative;
+	left: -100px;
+	top: -150px;
+	animation-name: clo2;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes apl{
+	0%{top:60px;}	
+	50%{top:10px;}	
+	100%{top:60px;}	
+}
+
+@keyframes clo{
+	0%{left:10px;}	
+	50%{left:107px;}	
+	100%{left:204px;}
+}
+
+@keyframes clo2{	
+	0%{left:-100px;}	
+	50%{left:0}	
+	100%{left:100px;}
+}
+
+
+#header {
+	height: 100px;
+	width: 100%
+}
+#header-logo {
+	float:left;
+	width: 20%;
+}
+
+#header-title {
+	float: left;
+	width: 60%;
+}
+
+#yello{
+	text-align:right;
+	float: left;
+	width:40%;
+	color: YELLOW;
+}
+
+#blue{
+	text-align:right;
+	float: left;
+	width:18%;
+	color: blue;
+}
+
+#red{
+	text-align:left;
+	float: left;
+	width:42%;
+	color: rgb(255, 0, 0);
+}
+
+#header-space{
+	float: left;
+	width: 20%;
+}
+
+#page-body {
+}
+
+#intro-sec {
+}
+
+#intro-nav nav{
+	float:left;	
+	width:20%;
+}
+
+#intro-p{
+	float:left;
+	width: 80%;
+}
+
+ul{
+	margin: 8px 0;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 3px 0 3px 25px;
+	width: 95px;
+}
+
+ul li{
+	position: relative;
+	left: 20px;
+}
+
+.section{
+}
+
+.section span {
+	float:left;
+	width: 8%;
+}
+
+.section p{
+	width: 92%
+}
+
+#imgMedia{
+	width: 50%;
+	height: 147px;
+	border: 1px solid black;
+	overflow-x: scroll;
+	padding-top: 1px;
+	padding-left: 1px;
+}
+
+#imgMedia div{	
+	width: 400%;
+}
+
+</style>
+<script>
+	function loaded() {
+		var clo2 = document.getElementsByClassName("clo2");
+		clo2[0].style.visibility = "visible";
+		}
+</script>
+<noscript>
+	#myAnime img.clo2{visibility: visible;}
+</noscript>
+</head>
+<body onload="setTimeout(loaded, 2000)">
+<div id="myAnime">
+<img class="apl" src="https://i.pinimg.com/originals/ba/9c/aa/ba9caafe1e343d6bcedf10654f265ba3.png" width="300" height="150" alt="error" />
+<img class="clo" src="http://www.clker.com/cliparts/e/T/m/l/i/k/cartoon-cloud-hi.png" width="100" height="50" alt="error" />
+<img class="clo2" src="http://www.clker.com/cliparts/e/T/m/l/i/k/cartoon-cloud-hi.png" width="100" height="50" alt="error" />
+</div>
+<div id="header">
+	<div id="header-logo">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Javeriana.svg/1200px-Javeriana.svg.png" width="100" height="100" alt="logo" />
+	</div>
+	<div id="header-title">
+		<h2><span id="yello">Colombia Por </span><span id="blue">Los Sen</span><span id="red">tidos</span></h2>
+	</div>
+	<div id="header-space">
+	</div>
+</div>
+<div id="page-body">
+	<div id="intro-sec">
+		<div id="intro-nav">
+	<nav>
+	<ul>
+		<li style="left:0px;"><a href="#intro">Intro</a></li>
+		<li><a href="#VerD">Ver</a></li>
+		<li><a href="#Oir">Oír</a></li>
+		<li><a href="#Gusto">Gusto</a></li>
+		<li><a href="#Oler">Oler</a></li>
+		<li><a href="#Toque">Toque</a></li>
+	</ul>
+	</nav>
+	<p id="intro-p">
+	
+	</p>
+		</div>
+	<p style="border-bottom: 1px solid black;">	
+	Bienvenido a Colombia! Colombia es un país 
+	en América del Sur, y es la casa de muchas  
+	personas y espicies de el medio ambiente en
+ 	el mundo. Le invitamos para explorar Colombia
+	usando los cinco sentidos. Sólo no escribe 
+	Colombia con un "u". 
+	</p>
+	</div>
+	<div id="VerD">
+		<div class="section">
+	<span><h5>Ver</h5></span>
+	<p id="Ver">
+	</p>
+		</div>
+	<p style="border-bottom: 1px solid black;">
+	En Colombia, se puede ver que la gente y el medio ambiente
+	son ventiúnicos. En la región pacífica,	se puede ver las montañas
+	altas que protegen el Valle Del Cauca, adonde la tierra es perfecta para
+	cultivar caña de azúcar. Las corrientes de agua que fluyen en el río Cauca
+	son bonitas, y también ayudan las plantas en el Valle.
+	Cerca a cada río, se encuentra mucha fauna silvestre
+	diversa. Si se viene para ver la cultura, se ve a muchos
+	tipos de gente indígena. Por ejemplo, se ve a los misaks en
+	el pueblo Silvia, cerca de Popayán, y ve las ropas que 
+	llevan los misaks. Esos incluyen bufandas azules y bombínes negros.
+	Los misaks son unas de las personas mejor vestidas de todas las
+	gentes indígenas.
+	</p>
+	</div>
+	<div id="Oir">
+		<div class="section">
+	<span><h5>Oír</h5></span>
+	<p>
+	</p>
+		</div>
+	<p style="border-bottom: 1px solid black;">
+	Todos los departamentos en Colombia tienen su música cultural
+	única. Cali es la ciudad de la salsa, un baile que tiene ritmo
+	muy rápido y principalmente utiliza los pies. Los instrumentos que 
+	acompañan la salsa son de viento y percusión. Dos de los famosos asociados con
+	la salsa son el Grupo Niche y Joe Arroyo. Es muy común oír las canciones de
+	Hector Lavoe en Cali, aunque sea de Puerto Rico. Cuando vayamos para
+	la región pacífica, se puede oír muchos insturmentos como 
+	las marimbas, los bombos, ect. Todos los insturmentos hacen
+	sonidos bonitos los que son perfectos para un día de playa en el Pacífico.
+	</p>
+	</div>
+	<div id="Gusto">
+		<div class="section">
+	<span><h5>Gusto</h5></span>
+	<p>
+	</p>
+		</div>
+	<p style="border-bottom: 1px solid black;">
+	Colombia es un país con muchas comidas diversas.
+	Es muy común encontrar mercados que tienen muchas comidas.
+	Por ejemplo, se puede comprar muchos tipos de frutas. Unas
+	de las frutas que se pueden comprar son lulo, uchuva,
+	chontaduro y granadilla. Todas las frutas son muy sabrosas,
+	con la exepción de los chontaduros, porque son muy amargos. Es tipico servir
+	el chontaduro con miel y sal. Las frutas son unas de todas las comidas que
+	se pueden probar en Colombia. Para las personas a quienes les gustan los dulces,
+	el arequípe es muy rico. Para esos quienes estan buscando una bebida que sea armaga,
+	pueden probar el café de Colombia, sin duda que es el mejor café en el mundo.
+	</p>
+	</div>
+	<div id="Oler">
+		<div class="section">
+	<span><h5>Oler</h5></span>
+	<p>
+	</p>
+		</div>
+	<p style="border-bottom: 1px solid black;">
+	Cuando se camina en uno de los muchos mercados en Colombia,<!-- muy particular el la galeria la section de queso y carne acido armago -->
+	hay muchos olores en el mercado. Queso y
+	carne, con frutas y vegetales, están a la orden todos
+	los dias. En la calle, se pueden encontrar los 
+	mejores resturantes solo usando la nariz. Es muy fácil encontrar un
+	lugar porque se siente y se ve el humo del carbón.
+	</p>
+	</div>
+	<div id="Toque">
+		<div class="section">
+	<span><h5>Toque</h5></span>
+	<p>
+	</p>
+		</div>
+	<p> 
+	Si viene a Colombia y toca la puerta,
+	siga para adventura. 
+www www www www www www www www www 
+www www www www www www www www www www www www
+ www www www www www www www www www 
+	</p>
+	</div>	
+	<div id="imgMedia">
+		<div>
+			<img src="https://github.com/davidstevenrose/ColombiaImages/blob/master/UYXJ6031%5B1%5D.jpg?raw=true" width="200" height="140" alt="error" />
+			<img src="https://github.com/davidstevenrose/ColombiaImages/blob/master/grana.jpg?raw=true" width="200" height="140" alt="error" />
+			<img src="https://github.com/davidstevenrose/ColombiaImages/blob/master/grana.jpg?raw=true" width="200" height="140" alt="error" />
+			<img src="https://github.com/davidstevenrose/ColombiaImages/blob/master/grana.jpg?raw=true" width="200" height="140" alt="error" />
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<a href="#header"><u>Va A Máximo</u></a>
+	<div class="spacer"></div>
+</body>
+</HTML>
